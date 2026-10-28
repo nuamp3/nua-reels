@@ -1,0 +1,46 @@
+name: instagram-trial-reels
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      only_id:
+        description: 'Post this reel id right now (e.g. N02). Leave empty for the normal schedule.'
+        required: false
+        default: ''
+      check_only:
+        description: 'Only check that the Instagram token works (no posting)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-poster
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post due trial reels
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          MEDIA_BASE: ${{ vars.MEDIA_BASE }}
+          ONLY_ID: ${{ inputs.only_id }}
+          CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
+        run: python3 post_instagram.py
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "nua-bot"
+          git config user.email "nua-bot@users.noreply.github.com"
+          git add posted.json
+          if ! git diff --cached --quiet; then
+            git commit -m "posting state $(date -u +%FT%TZ)"
+            for i in 1 2 3; do git pull --rebase && git push && break; sleep 7; done
+          fi
