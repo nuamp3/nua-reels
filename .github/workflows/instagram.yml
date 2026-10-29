@@ -24,7 +24,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: Post due trial reels
@@ -33,6 +33,7 @@ jobs:
           MEDIA_BASE: ${{ vars.MEDIA_BASE }}
           ONLY_ID: ${{ inputs.only_id }}
           CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
+          LOOP_MINUTES: ${{ github.event_name == 'schedule' && '50' || '0' }}
         run: python3 post_instagram.py
       - name: Save state
         if: always()

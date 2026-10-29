@@ -45,10 +45,20 @@ def make_container(uid, item, url):
     raise RuntimeError(f'container {cid} still processing after 12 min')
 
 
-def save(state):
+def save(state, push=False):
     with open('posted.json', 'w') as f:
         json.dump(state, f, indent=1, ensure_ascii=False)
         f.write('\n')
+    if push and os.environ.get('GITHUB_ACTIONS') == 'true':
+        import subprocess
+        sh = lambda *a: subprocess.run(list(a), capture_output=True, text=True)
+        sh('git', 'add', 'posted.json')
+        if sh('git', 'diff', '--cached', '--quiet').returncode != 0:
+            sh('git', 'commit', '-m', 'posting state')
+            for _ in range(3):
+                if sh('git', 'pull', '--rebase').returncode == 0 and sh('git', 'push').returncode == 0:
+                    break
+                time.sleep(5)
 
 
 def main():
@@ -109,7 +119,7 @@ def main():
         # published: record immediately so a later failure can never cause a duplicate
         state[rid] = {'status': 'published', 'due': item['due'], 'media_id': mid,
                       'published_at': now.isoformat(timespec='seconds')}
-        save(state)
+        save(state, push=True)
         done += 1
         try:
             info = call('GET', f'/{mid}', {'fields': 'permalink,timestamp'})
@@ -117,9 +127,24 @@ def main():
             save(state)
         except Exception as e:
             print(f'(published {rid} but could not read permalink: {e})')
+        save(state, push=True)
         print(f"PUBLISHED {rid} {state[rid].get('permalink', mid)}")
     return 0
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    loop_min = float(os.environ.get('LOOP_MINUTES', '0'))
+    if loop_min <= 0 or ONLY or CHECK:
+        sys.exit(main())
+    if not TOKEN:
+        sys.exit(main())
+    end = time.time() + loop_min * 60
+    while True:
+        try:
+            main()
+        except Exception as e:  # network hiccup etc. - try again next round
+            print(f'run failed: {e}')
+        if time.time() + 120 > end:
+            break
+        time.sleep(120)
+
