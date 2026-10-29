@@ -232,12 +232,12 @@
   "hook": "the song you play when you don’t want the day to end"
  },
  {
-  "id": "N27",
+  "id": "N38",
   "due": "2026-11-02T22:45:00+01:00",
-  "url": "https://cdn.jsdelivr.net/gh/nuamp3/nua-reels@c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N27.mp4",
-  "url_fallback": "https://raw.githubusercontent.com/nuamp3/nua-reels/c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N27.mp4",
-  "caption": "stay a little longer, october 🍂\n\nstay with me · out 6.11\n\n#deephouse #housemusic #newmusic",
-  "hook": "autumn is leaving. this song is begging it to stay 🍂"
+  "url": "https://cdn.jsdelivr.net/gh/nuamp3/nua-reels@c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N38.mp4",
+  "url_fallback": "https://raw.githubusercontent.com/nuamp3/nua-reels/c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N38.mp4",
+  "caption": "monday who? 🕺\n\nstay with me · out 6.11 🤍\n\n#deephouse #housemusic #newmusic",
+  "hook": "pov: the beat drops and you forget about your 9 to 5"
  },
  {
   "id": "N05",
@@ -296,12 +296,12 @@
   "hook": "dancing like summer never ended 🌅"
  },
  {
-  "id": "N38",
+  "id": "N27",
   "due": "2026-11-03T21:15:00+01:00",
-  "url": "https://cdn.jsdelivr.net/gh/nuamp3/nua-reels@c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N38.mp4",
-  "url_fallback": "https://raw.githubusercontent.com/nuamp3/nua-reels/c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N38.mp4",
-  "caption": "monday who? 🕺\n\nstay with me · out 6.11 🤍\n\n#deephouse #housemusic #newmusic",
-  "hook": "pov: the beat drops and you forget about your 9 to 5"
+  "url": "https://cdn.jsdelivr.net/gh/nuamp3/nua-reels@c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N27.mp4",
+  "url_fallback": "https://raw.githubusercontent.com/nuamp3/nua-reels/c20acfb22fc54a1b60c5d25f6767729cebfef586/reels/N27.mp4",
+  "caption": "stay a little longer, october 🍂\n\nstay with me · out 6.11\n\n#deephouse #housemusic #newmusic",
+  "hook": "autumn is leaving. this song is begging it to stay 🍂"
  },
  {
   "id": "N40",
