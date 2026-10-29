@@ -28,6 +28,23 @@ def call(method, path, params):
         raise RuntimeError(f'{method} {path} -> HTTP {e.code}: {body}') from None
 
 
+def make_container(uid, item, url):
+    params = {'media_type': 'REELS', 'video_url': url, 'caption': item['caption'],
+              'trial_params': json.dumps({'graduation_strategy': item.get('graduation', 'MANUAL')})}
+    if item.get('thumb_offset_ms') is not None:
+        params['thumb_offset'] = str(item['thumb_offset_ms'])
+    cid = call('POST', f'/{uid}/media', params)['id']
+    for _ in range(72):  # wait up to 12 min for Instagram to process the video
+        time.sleep(10)
+        s = call('GET', f'/{cid}', {'fields': 'status_code,status'})
+        code = s.get('status_code')
+        if code == 'FINISHED':
+            return cid
+        if code in ('ERROR', 'EXPIRED'):
+            raise RuntimeError(f'container {cid} failed: {s}')
+    raise RuntimeError(f'container {cid} still processing after 12 min')
+
+
 def save(state):
     with open('posted.json', 'w') as f:
         json.dump(state, f, indent=1, ensure_ascii=False)
@@ -69,25 +86,19 @@ def main():
                 continue
         if done >= MAX_PER_RUN:
             break
-        url = item.get('url') or f"{MEDIA_BASE}/{item['file']}"
-        print(f'{rid}: creating trial reel container from {url}')
+        urls = [u for u in (item.get('url') or f"{MEDIA_BASE}/{item['file']}", item.get('url_fallback')) if u]
         try:
-            params = {'media_type': 'REELS', 'video_url': url, 'caption': item['caption'],
-                      'trial_params': json.dumps({'graduation_strategy': item.get('graduation', 'MANUAL')})}
-            if item.get('thumb_offset_ms') is not None:
-                params['thumb_offset'] = str(item['thumb_offset_ms'])
-            cid = call('POST', f'/{uid}/media', params)['id']
-            for _ in range(72):  # wait up to 12 min for Instagram to process the video
-                time.sleep(10)
-                s = call('GET', f'/{cid}', {'fields': 'status_code,status'})
-                code = s.get('status_code')
-                if code == 'FINISHED':
+            mid, errs = None, []
+            for url in urls:
+                print(f'{rid}: creating trial reel container from {url}')
+                try:
+                    cid = make_container(uid, item, url)
+                    mid = call('POST', f'/{uid}/media_publish', {'creation_id': cid})['id']
                     break
-                if code in ('ERROR', 'EXPIRED'):
-                    raise RuntimeError(f'container {cid} failed: {s}')
-            else:
-                raise RuntimeError(f'container {cid} still processing after 12 min')
-            mid = call('POST', f'/{uid}/media_publish', {'creation_id': cid})['id']
+                except Exception as e:
+                    errs.append(str(e)); print(f'  attempt failed: {e}')
+            if mid is None:
+                raise RuntimeError(' | '.join(errs))
         except Exception as e:  # nothing was published
             st = state.get(rid, {})
             st.update(status='error', due=item['due'], attempts=st.get('attempts', 0) + 1, last_error=str(e)[:600])
