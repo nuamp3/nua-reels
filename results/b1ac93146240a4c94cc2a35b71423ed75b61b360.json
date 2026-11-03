@@ -1,0 +1,12 @@
+{
+ "L013_ig": {
+  "download": "200 6030337",
+  "put": "200",
+  "check": "206 video/mp4"
+ },
+ "L014_ig": {
+  "download": "200 3779003",
+  "put": "200",
+  "check": "206 video/mp4"
+ }
+}
