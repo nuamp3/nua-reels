@@ -1,0 +1,13 @@
+{
+ "batch": "test-1 (pipeline check with an existing reel)",
+ "ok": 1,
+ "total": 1,
+ "results": {
+  "T001": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  }
+ }
+}
