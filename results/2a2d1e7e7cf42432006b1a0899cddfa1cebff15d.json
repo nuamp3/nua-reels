@@ -1,0 +1,187 @@
+{
+ "batch": "mv-b4 (M071-M100)",
+ "ok": 30,
+ "total": 30,
+ "results": {
+  "M071": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M072": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M073": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M074": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M075": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M076": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M077": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M078": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M079": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M080": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M081": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M082": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M083": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M084": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M085": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M086": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M087": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M088": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M089": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M090": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M091": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M092": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M093": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M094": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M095": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M096": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M097": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M098": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M099": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  },
+  "M100": {
+   "source": "ok",
+   "put": "200",
+   "get": "200 video/mp4",
+   "verify": "sha256 match"
+  }
+ }
+}
