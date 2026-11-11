@@ -1,0 +1,11 @@
+{
+ "batch": "test-1 (pipeline check with an existing reel)",
+ "files": [
+  {
+   "id": "T001",
+   "src": "https://raw.githubusercontent.com/nuamp3/nua-reels/959484d6fe171a1b6de27613fd55217c3da15ab9/reels/L013_ig.mp4",
+   "sha256": "ff145dd91f140b6741cca5c56e2d09c1cb0418724f105243dcf82bcc915246fa",
+   "size": 6030337
+  }
+ ]
+}

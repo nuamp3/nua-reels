@@ -1,47 +1,26 @@
-name: upload reels to Zernio storage
+name: upload reels to Zernio storage (sealed)
+# Started by a push that changes request.json. The presigned upload URLs arrive later,
+# encrypted to a key that exists only inside this run; see .github/sealed_upload.py.
 on:
   push:
     branches: [uploader]
+    paths: [request.json]
 permissions:
   contents: write
-concurrency: uploader
+concurrency:
+  group: uploader
+  cancel-in-progress: false
 jobs:
   upload:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: uploader
-      - name: PUT files to presigned URLs
-        run: |
-          python3 - <<'PY'
-          import json, subprocess
-          jobs = json.load(open('jobs.json'))
-          res = {}
-          for j in jobs:
-              out = {}
-              d = subprocess.run(['curl','-sSfL','--retry','3','-o','f.mp4','-w','%{http_code} %{size_download}', j['src']], capture_output=True, text=True)
-              out['download'] = d.stdout.strip() or d.stderr.strip()[-200:]
-              if d.returncode == 0:
-                  for attempt in range(3):
-                      p = subprocess.run(['curl','-sS','-o','/dev/null','-w','%{http_code}','-X','PUT','-H','Content-Type: video/mp4','--data-binary','@f.mp4', j['put']], capture_output=True, text=True)
-                      out['put'] = p.stdout.strip() or p.stderr.strip()[-200:]
-                      if out['put'] == '200': break
-                  c = subprocess.run(['curl','-sS','-o','/dev/null','-r','0-1023','-w','%{http_code} %{content_type}', j['public']], capture_output=True, text=True)
-                  out['check'] = c.stdout.strip() or c.stderr.strip()[-200:]
-              res[j['id']] = out
-              print(j['id'], out, flush=True)
-          json.dump(res, open('/tmp/results.json','w'), indent=1)
-          PY
-      - name: publish results
-        run: |
-          git config user.name "nua uploader"
-          git config user.email "uploader@users.noreply.github.com"
-          git fetch origin uploader-results || true
-          git checkout -B uploader-results
-          git rm -rq --cached . >/dev/null
-          mkdir -p results && cp /tmp/results.json "results/${GITHUB_SHA}.json"
-          git add "results/${GITHUB_SHA}.json"
-          git commit -qm "upload results ${GITHUB_SHA}"
-          git push -f origin uploader-results
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+      - name: Sealed upload
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/sealed_upload.py
