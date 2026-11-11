@@ -1,0 +1,1112 @@
+[
+ {
+  "n": 1,
+  "reel": "M071",
+  "due": "2026-11-23T11:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "one more year, one more song, one more reason to hold on\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412189349_903dbb1e52f1fd71_nua_StayWithMe_M071.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-23T11:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M071"
+   }
+  }
+ },
+ {
+  "n": 2,
+  "reel": "M072",
+  "due": "2026-11-23T14:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "nothing to prove, just me and you\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412190005_2a266b93ef7c1a02_nua_StayWithMe_M072.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-23T14:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M072"
+   }
+  }
+ },
+ {
+  "n": 3,
+  "reel": "M073",
+  "due": "2026-11-23T16:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "hold me close and let me breathe\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412190565_f0879f10b88f03a5_nua_StayWithMe_M073.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-23T16:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M073"
+   }
+  }
+ },
+ {
+  "n": 4,
+  "reel": "M074",
+  "due": "2026-11-23T19:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "the song I'd stay for 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412191158_03720870d3a10442_nua_StayWithMe_M074.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-23T19:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M074"
+   }
+  }
+ },
+ {
+  "n": 5,
+  "reel": "M075",
+  "due": "2026-11-23T21:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "from the official video 🎬\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412192025_d7f1f74ae828424d_nua_StayWithMe_M075.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-23T21:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M075"
+   }
+  }
+ },
+ {
+  "n": 6,
+  "reel": "M076",
+  "due": "2026-11-24T09:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "say you'll stay, say you'll stay\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412193278_d21d8176f7cda00a_nua_StayWithMe_M076.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T09:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M076"
+   }
+  }
+ },
+ {
+  "n": 7,
+  "reel": "M077",
+  "due": "2026-11-24T11:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "one more song 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412193851_ef97a3cbd3a84668_nua_StayWithMe_M077.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T11:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M077"
+   }
+  }
+ },
+ {
+  "n": 8,
+  "reel": "M078",
+  "due": "2026-11-24T14:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "fade the noise, take me back\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412194521_97fa76ee57a5b0b0_nua_StayWithMe_M078.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T14:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M078"
+   }
+  }
+ },
+ {
+  "n": 9,
+  "reel": "M079",
+  "due": "2026-11-24T16:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "say you'll stay, say you'll stay\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412195283_f2071c3544355b7b_nua_StayWithMe_M079.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T16:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M079"
+   }
+  }
+ },
+ {
+  "n": 10,
+  "reel": "M080",
+  "due": "2026-11-24T19:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "stay with me 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412195947_13b85a8f6e22f330_nua_StayWithMe_M080.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T19:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M080"
+   }
+  }
+ },
+ {
+  "n": 11,
+  "reel": "M081",
+  "due": "2026-11-24T21:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "every night and every day\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412198862_e499abf58c643bd6_nua_StayWithMe_M081.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-24T21:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M081"
+   }
+  }
+ },
+ {
+  "n": 12,
+  "reel": "M082",
+  "due": "2026-11-25T09:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "stay with me\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412200119_0655fa8b4d19bb40_nua_StayWithMe_M082.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T09:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M082"
+   }
+  }
+ },
+ {
+  "n": 13,
+  "reel": "M083",
+  "due": "2026-11-25T11:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "the song I'd stay for 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412200690_1f3485bdfba9ba37_nua_StayWithMe_M083.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T11:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M083"
+   }
+  }
+ },
+ {
+  "n": 14,
+  "reel": "M084",
+  "due": "2026-11-25T14:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "from the official video 🎬\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412205157_ce0134a57745a48b_nua_StayWithMe_M084.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T14:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M084"
+   }
+  }
+ },
+ {
+  "n": 15,
+  "reel": "M085",
+  "due": "2026-11-25T16:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "say you'll stay, say you'll stay\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412205802_39a1951165d6c8bb_nua_StayWithMe_M085.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T16:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M085"
+   }
+  }
+ },
+ {
+  "n": 16,
+  "reel": "M086",
+  "due": "2026-11-25T19:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "every night and every day\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412206697_9e07ea6df1022366_nua_StayWithMe_M086.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T19:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M086"
+   }
+  }
+ },
+ {
+  "n": 17,
+  "reel": "M087",
+  "due": "2026-11-25T21:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "one more song 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412207352_9f2d0f5785414c1e_nua_StayWithMe_M087.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-25T21:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M087"
+   }
+  }
+ },
+ {
+  "n": 18,
+  "reel": "M088",
+  "due": "2026-11-26T09:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "quiet morning, coffee cold ☕️\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412207957_5f52127da806dea6_nua_StayWithMe_M088.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T09:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M088"
+   }
+  }
+ },
+ {
+  "n": 19,
+  "reel": "M089",
+  "due": "2026-11-26T11:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "every night and every day\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412211180_01653af3a893bbfe_nua_StayWithMe_M089.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T11:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M089"
+   }
+  }
+ },
+ {
+  "n": 20,
+  "reel": "M090",
+  "due": "2026-11-26T14:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "stay with me\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412211845_a8fa4f491075aeba_nua_StayWithMe_M090.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T14:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M090"
+   }
+  }
+ },
+ {
+  "n": 21,
+  "reel": "M091",
+  "due": "2026-11-26T16:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "the song I'd stay for 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412214609_161f587845d01b52_nua_StayWithMe_M091.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T16:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M091"
+   }
+  }
+ },
+ {
+  "n": 22,
+  "reel": "M092",
+  "due": "2026-11-26T19:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "your hand in mine, that never gets old\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412215432_bfbff56f87c0b20a_nua_StayWithMe_M092.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T19:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M092"
+   }
+  }
+ },
+ {
+  "n": 23,
+  "reel": "M093",
+  "due": "2026-11-26T21:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "from the official video 🎬\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412216086_673f3f0714539a52_nua_StayWithMe_M093.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-26T21:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M093"
+   }
+  }
+ },
+ {
+  "n": 24,
+  "reel": "M094",
+  "due": "2026-11-27T09:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "say you'll stay, say you'll stay\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412217055_cc51195e69cf393a_nua_StayWithMe_M094.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T09:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M094"
+   }
+  }
+ },
+ {
+  "n": 25,
+  "reel": "M095",
+  "due": "2026-11-27T11:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "rain on the window, we don't move\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412217749_035086135d7664c5_nua_StayWithMe_M095.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T11:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M095"
+   }
+  }
+ },
+ {
+  "n": 26,
+  "reel": "M096",
+  "due": "2026-11-27T14:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "one more song 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412218659_c21d9903d5668cd8_nua_StayWithMe_M096.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T14:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M096"
+   }
+  }
+ },
+ {
+  "n": 27,
+  "reel": "M097",
+  "due": "2026-11-27T16:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "every night and every day\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412219538_91656c51725da0d8_nua_StayWithMe_M097.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T16:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M097"
+   }
+  }
+ },
+ {
+  "n": 28,
+  "reel": "M098",
+  "due": "2026-11-27T19:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "stay with me\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412220262_16b1bedc4268d105_nua_StayWithMe_M098.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T19:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M098"
+   }
+  }
+ },
+ {
+  "n": 29,
+  "reel": "M099",
+  "due": "2026-11-27T21:50:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "the song I'd stay for 🤍\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412221201_445f00e7b6efc3c9_nua_StayWithMe_M099.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-27T21:50:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M099"
+   }
+  }
+ },
+ {
+  "n": 30,
+  "reel": "M100",
+  "due": "2026-11-28T09:20:00+01:00",
+  "tool": "posts_create_post",
+  "arguments": {
+   "content": "nothing to prove, just me and you\n\nstay with me · out now 🤍\n\n#deephouse #housemusic #newmusic #lyrics",
+   "media_items": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/temp/1794412221876_346aac2c2f3191f7_nua_StayWithMe_M100.mp4"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "instagram",
+     "accountId": "6aea056d8de2f334e4ec1617",
+     "platformSpecificData": {
+      "contentType": "reels",
+      "shareToFeed": true,
+      "thumbOffset": 1000,
+      "trialParams": {
+       "graduationStrategy": "SS_PERFORMANCE"
+      }
+     }
+    }
+   ],
+   "scheduled_for": "2026-11-28T09:20:00+01:00",
+   "timezone": "Europe/Vienna",
+   "tags": [
+    "swm-lyric-clips"
+   ],
+   "metadata": {
+    "clip": "M100"
+   }
+  }
+ }
+]
